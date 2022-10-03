@@ -57,12 +57,12 @@
 
 }
 
-.wd-name-info{
+.wd-name{
     color: white;
     font-size: 15px;
 }
 
-.wd-id-info{
+.wd-id{
     color: lightgray;
     font-size: 15px;
     margin-top: 12px;
@@ -79,7 +79,7 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-.wd-ref-image-border{
+.wd-reference-image{
     border:1px solid dimgray;
     padding-top: 0px;
     border-top: none;
@@ -151,5 +151,30 @@
 
 .wd-icon-links-red{
     color: red;
+    text-decoration: None;
+}
+body {
+    font-family: Arial;
+    background-color: black;
+    color: white;
+    padding-left: 16px;
+    max-width: 650px;
+}
+
+.wd-title-bar {
+    border: 1px solid rgb(47, 51, 54);
+}
+
+.wd-clear {
+    clear: both;
+}
+
+.wd-more-options{
+    float: right;
+    color: darkgray;
+}
+
+.wd-icon-links{
+    color: darkgray;
     text-decoration: None;
 }
