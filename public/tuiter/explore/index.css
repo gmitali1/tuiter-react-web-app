@@ -1,14 +1,6 @@
-.wd-search-bar-content {
-    color: white;
-    background-color: darkgray;
-    width: 85%;
-    height: 35px;
-    margin-left: 16px;
-    border-radius: 20px;
-    margin-top: 5px;
-}
 
-.wd-gear-setting {
+
+.wd-search-gear {
     float: right;
     margin-right: 12px;
     margin-top: 5px;
@@ -21,6 +13,16 @@
     text-decoration: None;
 }
 
+
+.wd-search-bar {
+    color: white;
+    background-color: darkgray;
+    width: 85%;
+    height: 35px;
+    margin-left: 16px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
 .wd-hr {
     border: none;
     margin-top: 0px;
