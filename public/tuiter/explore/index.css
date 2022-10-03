@@ -1,0 +1,125 @@
+.wd-search-bar-content {
+    color: white;
+    background-color: darkgray;
+    width: 85%;
+    height: 35px;
+    margin-left: 16px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+.wd-gear-setting {
+    float: right;
+    margin-right: 12px;
+    margin-top: 5px;
+    font-size: 35px;
+    text-decoration-line: none;
+    color: dodgerblue;
+}
+.wd-icon-links-selected{
+    color: dodgerblue;
+    text-decoration: None;
+}
+
+.wd-hr {
+    border: none;
+    margin-top: 0px;
+    height: 12px;
+    background: rgb(47, 51, 54);
+}
+
+.wd-nav-tabs {
+    color: rgb(29, 161, 242);
+    width: 100%;
+    display: inline-block;
+}
+
+.wd-nav-tabs .wd-selected {
+    border-bottom: solid 4px rgb(29, 161, 242);
+    border-bottom-left-radius: 2px ;
+    border-bottom-right-radius: 2px;
+    border-bottom-height: 2px;
+    color: rgb(29, 161, 242);
+    font-size: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.wd-nav-tabs .wd-not-selected {
+    color: rgb(110, 118, 125);
+    font-size: 15px;
+    padding: 16px;
+}
+
+.wd-nav-tabs li {
+    list-style-type: none;
+    display: inline-block;
+    border: 2px solid black;
+    padding: .5em;
+}
+
+.wd-for-you {
+    border: 1px solid rgb(110, 118, 125);
+    padding: 15px;
+}
+.fg-color-for-you { color: rgb(110, 118, 125); }
+
+.wd-for-you .wd-h3 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+}
+.wd-for-you .wd-h1 {
+    font-size: 20px;
+}
+
+.wd-for-you .wd-detailed-messages {
+    margin: 1px;
+    padding: 1px;
+    font-size: 20px;
+    width: 80%;
+    float: left;
+}
+.wd-for-you .wd-titles-view-likes {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 0px;
+    font-size: 13px;
+}
+
+.wd-titles-view-likes-white {
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    color: white;
+}
+
+.wd-img-for-you {
+    border-radius: 20%;
+    float: right;
+    margin-right: 16px;
+    width: 100px;
+    height: 100px;
+}
+
+.wd-img-for-you-small {
+    border-radius: 30%;
+    float: left;
+    width: 15px;
+}
+.wd-img-for-you-small2 {
+    border-radius: 50%;
+    float: none;
+    width: 15px;
+}
+
+.wd-for-you-with-images{
+    width: 80%;
+    height: 100%;
+    float: left;
+}
+
+
+
+
+

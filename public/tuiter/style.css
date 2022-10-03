@@ -1,0 +1,25 @@
+body {
+    font-family: Arial;
+    background-color: black;
+    color: white;
+    padding-left: 16px;
+    max-width: 650px;
+}
+
+.wd-title-bar {
+    border: 1px solid rgb(47, 51, 54);
+}
+
+.wd-undo-wrapping {
+    clear: both;
+}
+
+.wd-more-options-gray{
+    float: right;
+    color: darkgray;
+}
+
+.wd-icon-links{
+    color: darkgray;
+    text-decoration: None;
+}
