@@ -58,43 +58,43 @@
     padding: .5em;
 }
 
-.wd-for-you {
+.wd-div-class {
     border: 1px solid rgb(110, 118, 125);
     padding: 15px;
 }
-.fg-color-for-you { color: rgb(110, 118, 125); }
+.wd-foreground { color: rgb(110, 118, 125); }
 
-.wd-for-you .wd-h3 {
+.wd-div-class .wd-h3 {
     margin: 0px;
     padding: 0px;
     font-size: 14px;
 }
-.wd-for-you .wd-h1 {
+.wd-div-class .wd-header {
     font-size: 20px;
 }
 
-.wd-for-you .wd-detailed-messages {
+.wd-div-class .wd-detailed-messages {
     margin: 1px;
     padding: 1px;
     font-size: 20px;
     width: 80%;
     float: left;
 }
-.wd-for-you .wd-titles-view-likes {
+.wd-div-class .wd-view {
     margin-top: 1px;
     margin-bottom: 1px;
     padding: 0px;
     font-size: 13px;
 }
 
-.wd-titles-view-likes-white {
+.wd-view-color-white {
     margin: 0px;
     padding: 0px;
     font-size: 15px;
     color: white;
 }
 
-.wd-img-for-you {
+.wd-img-div-class {
     border-radius: 20%;
     float: right;
     margin-right: 16px;
@@ -102,18 +102,18 @@
     height: 100px;
 }
 
-.wd-img-for-you-small {
+.wd-img-div-class-small {
     border-radius: 30%;
     float: left;
     width: 15px;
 }
-.wd-img-for-you-small2 {
+.wd-img-div-class-smaller {
     border-radius: 50%;
     float: none;
     width: 15px;
 }
 
-.wd-for-you-with-images{
+.wd-div-class-with-images{
     width: 80%;
     height: 100%;
     float: left;
