@@ -1,83 +1,254 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Explore</title>
+<!--    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>-->
+<!--    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+          rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+          rel="stylesheet"/>
     <link href="index.css" rel="stylesheet"/>
 </head>
-<body>
-<div class="wd-title-bar">
-    <input type="text" id="search-bar" class="wd-search-bar" placeholder="  🔍 &nbsp; Search Tuiter &nbsp;"/>
-    <a href="explore-setting.html" class="wd-search-gear">&#x2699;</a>
-    <div class="wd-clear"></div>
-    <ul class="wd-navigation">
-        <div>
-            <li class="wd-selected-item"><a class="wd-icon-selected" href="#"> For you</a></li>
-            <li class="wd-normal-item"><a class="wd-icon" href="#">Trending</a></li>
-            <li class="wd-normal-item"><a class="wd-icon" href="#">COVID-19</a></li>
-            <li class="wd-normal-item"><a class="wd-icon" href="#">News</a></li>
-            <li class="wd-normal-item"><a class="wd-icon" href="#">Sports</a></li>
-            <li class="wd-normal-item"><a class="wd-icon" href="#">Entertainment</a></li>
-        </div>
-    </ul>
-</div>
-<hr class="wd-hr">
-<div class="wd-div-class">
-    <span class="wd-foreground wd-view">Trending in Science</span>
-    <div class="wd-more-options">...</div>
-    <br>
-    <span class="wd-header">Starship</span>
-    <br>
-    <span class="wd-foreground wd-view">55.5k Tuits</span>
-</div>
+<body class ="primary-bg-color">
+<div class="container mt-2 mb-2">
+<div class = "row">
+    <div class ="col-sm-2">
+    <div class="list-group primary-bg-color f-font-color">
+        <a href="#!" class="list-group-item list-group-item-action primary-bg-color f-font-color">
+            <i class="fab fa-twitter"></i>
+        </a>
+            <a href="#!" class="list-group-item list-group-item-action primary-bg-color f-font-color">
+            <i class="fa fa-home"></i>
+                <span class="d-none d-l-inline-block d-xl-inline-block">Home</span>
+            </a>
+        <a href="#!" class="list-group-item list-group-item-action active" aria-current="true">
+            <i class="fa fa-hashtag"></i>
+            <span class="d-none d-l-inline-block d-xl-inline-block">Explore</span>
+        </a>
+        <a href="#!" class="list-group-item list-group-item-action primary-bg-color f-font-color">
+            <i class="fa fa-bell"></i>
+            <span class="d-none d-l-inline-block d-xl-inline-block">Notifications</span>
+        </a>
+        <a href="#!" class="list-group-item list-group-item-action primary-bg-color f-font-color">
+            <i class="fa fa-envelope "></i>
+            <span class="d-none d-l-inline-block d-xl-inline-block"> Messages</span>
+        </a>
+        <a href="#!" class="list-group-item list-group-item-action primary-bg-color f-font-color">
+            <i class="fa fa-bookmark "></i>
+            <span class="d-none d-l-inline-block d-xl-inline-block">Bookmarks </span>
+        </a>
+        <a href="#!" class="list-group-item list-group-item-action primary-bg-color f-font-color">
+            <i class="fa fa-list "></i>
+            <span class="d-none d-l-inline-block d-xl-inline-block">Lists </span>
+        </a>
+        <a href="#!" class="list-group-item list-group-item-action primary-bg-color f-font-color">
+            <i class="fa fa-user"></i>
+            <span class="d-none d-l-inline-block d-xl-inline-block">Profile </span>
+        </a>
+        <a href="#!" class="list-group-item list-group-item-action primary-bg-color f-font-color ">
+                    <span class="fa-stack fa-1x more-icon">
+                        <i class="fas fa-circle fa-stack-1x"></i>
+                        <i class="fas fa-ellipsis-h fa-stack-1x fa-inverse ellipsis-small f-background-color"></i>
+                    </span>
+            <span class="d-none d-l-inline-block d-xl-inline-block">More</span>
+        </a>
+        <a href="#!">
+            <button type="button" class="btn mt-1 rounded-pill w-100 my-btn ternary-bg-color">Tweet</button>
+        </a>
+    </div>
+    </div>
 
-<div class="wd-div-class">
-    <span class="wd-foreground wd-view">Sports - Trending</span>
-    <div class="wd-more-options">...</div><br>
-    <span class="wd-header">Joe Rogan</span><br>
-    <span class="wd-foreground wd-view">5,218 Tuits</span>
-</div>
-<div class="wd-div-class">
-    <div class="wd-div-class-with-images">
-        <img class="wd-img-div-class-small" src="../../images/times.png">
-        <span class="wd-foreground wd-view-color-white">&nbsp; The New York Times</span>
-        <img class="wd-img-div-class-smaller" src="../../images/tickmark.png"> <span class="wd-foreground wd-view">&nbsp . Yesterday</span></br>
-        <span class="wd-detailed-messages">Biden will visit Puerto Rico and Florida to assess damage from storms.</span>
+
+    <div class="col-md-10 col-lg-7 p-0 custom-border">
+        <div class ="row">
+            <div class ="col-11">
+    <div class="input-group border  ms-2 rounded-pill border-bg-color secondary-color border-0" id="search-div">
+         <span class="input-group-text bg-transparent border-0 secondary-color rounded " id="search-addon">
+    <i class="fa fa-search"></i>
+  </span>
+        <input type="text" class="form-control bg-transparent secondary-color border-0 white-type rounded" placeholder="Search Twitter" aria-label="Search Twitter" aria-describedby="search-addon" />
+        </div>
+                </div>
+            <div class="col-1">
+                <i class="fas fa-cog fa-1x p-1 secondary-color lh-lg"></i>
+            </div>
     </div>
-    <div><img class="wd-img-div-class" src="../../images/joebiden.jpg"/></div>
-    <div class="wd-clear"></div>
-</div>
-<div class="wd-div-class">
-    <div class="wd-div-class-with-images">
-        <span class="wd-foreground wd-view">COVID-19 . LIVE</span><br>
-        <span class="wd-detailed-messages">Long Covid: What science has learned about the loss of smell and taste</span>
+
+
+
+    <ul class="nav nav-tabs border-color mt-2 mb-0 border-0 d-flex justify-content-between">
+            <li class="nav-item border-color">
+                <span class="">
+            <a class="nav-link wd-foreground active" href="for-you.html">For you</a></span>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link wd-foreground" href="trending.html">Trending</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link wd-foreground" href="news.html">News</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link wd-foreground" href="sports.html">Sports</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link wd-foreground" href="entertainment.html">Entertainment</a>
+        </li>
+    </ul>
+        <ul class ="list-group border-0">
+
+            <li class="list-group-item primary-bg-color border-0 m-0 p-0">
+                <div class="position-relative text-white">
+                    <img src="../../images/coldplay.jpg" class="img-fluid" alt="joebiden">
+                    <div class="position-absolute text-in-image">
+                        <span>Music | Last Night</span><br>
+                        <span class="fw-bold fs-2"> BTS and Coldplay release their new song, My universe
+                            <img src="../../images/solar.jpeg" class="img-fluid width-35p">
+                            </span>
+                    </div>
+                </div>
+            </li>
+
+            <li class="list-group-item d-flex align-items-start primary-bg-color secondary-color  border-1">
+                <div class="left-child w-85 wd-div-class wd-div-class-with-images">
+                <span class="wd-foreground">Trending in Science</span>
+                <span class="row"></span>
+                <span>
+                <span class="wd-foreground active">Starship</span>
+                    <i class="fas fa-check-circle ml-2"></i>
+                </span>
+                     <span class="row"></span>
+                    <span class="wd-foreground">55.5k Tuits</span>
+                </div>
+                <div class="right-child w-15">
+                    <i class="fas fa-ellipsis-h ml-2 float-end"></i>
+                </div>
+            </li>
+
+            <li class="list-group-item d-flex align-items-start primary-bg-color secondary-color">
+                <div class="left-child w-85 wd-div-class wd-div-class-with-images">
+
+                    <span class="wd-foreground ">Sports - Trending</span>
+                    <span class="row"></span>
+                    <span>
+                            <span class="wd-foreground active">Joe Rogan</span>
+                            <i class="fas fa-check-circle ml-2"></i>
+                        </span>
+                    <span class="row"></span>
+                    <span class="wd-foreground">5,218 Tuits</span></span>
+
+                </div>
+                <div class="right-child w-15">
+                    <i class="fas fa-ellipsis-h ml-2  float-end"></i>
+                </div>
+            </li>
+
+            <li class="list-group-item d-flex align-items-start primary-bg-color secondary-color">
+                <div class="left-child w-85 wd-div-class wd-div-class-with-images">
+                    <img class="wd-img-div-class-small" src="../../images/times.png">
+                        <span>
+                            <span class="wd-foreground active"> &nbsp;  The New York Times</span>
+                            <i class="fas fa-check-circle ml-2"></i>
+                            <small class="wd-foreground"> . September 24, 2021</small>
+                        </span>
+                    <span class="row"></span>
+                    <span class="wd-foreground active">Biden will visit Puerto Rico and Florida to assess damage from storms.</span>
+                    </span>
+                    <span class="row"></span>
+                </div>
+                <div class="right-child w-15">
+                    <img src="../../images/joebiden.jpg" class="img-fluid round wd-img-div-class" alt="joebiden">
+                </div>
+            </li>
+
+            <li class="list-group-item d-flex align-items-start primary-bg-color secondary-color  border-1">
+                <div class="left-child w-85 wd-div-class wd-div-class-with-images">
+
+                    <span class="wd-foreground">Trending in R&B & Soul</span>
+                    <span class="row"></span>
+                    <span>
+                            <span class="wd-foreground active">R Kelly</span>
+                            <i class="fas fa-check-circle ml-2"></i>
+                        </span>
+                    <span class="row"></span>
+                    <span class="wd-foreground">18.2 K Tweets</span>
+
+                </div>
+                <div class="right-child w-15">
+                    <i class="fas fa-ellipsis-h ml-2  float-end"></i>
+                </div>
+            </li>
+
+            <li class="list-group-item d-flex align-items-start primary-bg-color secondary-color">
+                <div class="left-child w-85 wd-div-class wd-div-class-with-images">
+
+                    <span class="wd-foreground ">Trending in R&B & Soul</span>
+                    <span class="row"></span>
+                    <span>
+                            <span class="wd-foreground active">Chole</span>
+                            <i class="fas fa-check-circle ml-2"></i>
+                        </span>
+                    <span class="row"></span>
+                    <span class="wd-foreground">Trending with <span class="ternary-color">Halle</span></span>
+
+                </div>
+                <div class="right-child w-15">
+                    <i class="fas fa-ellipsis-h ml-2  float-end"></i>
+                </div>
+            </li>
+        </ul>
     </div>
-    <div><img class="wd-img-div-class" src="../../images/covid19.jpg"/></div>
-    <div class="wd-clear"></div>
-</div>
-<div class="wd-div-class">
-    <div class="wd-div-class-with-images">
-        <img class="wd-img-div-class-small" src="../../images/bloomberg.png">
-        <span class="wd-foreground wd-view-color-white">&nbsp; Bloomberg opinion</span>
-        <img class="wd-img-div-class-smaller" src="../../images/tickmark.png"> <span class="wd-foreground wd-view">&nbsp . Yesterday</span></br>
-        <span class="wd-detailed-messages">Throwing Shade Is Solar Energy's New Superpower</span>
+    <div class="col-lg-3 d-lg-block d-sm-none">
+        <ul class="list-group border-bg-color secondary-color">
+            <li class="list-group-item border-bg-color secondary-color">
+                <span class="recomm-name fw-bold">Who to follow</span>
+            </li>
+
+            <li class="list-group-item border-bg-color secondary-color">
+                <div class="row">
+                    <div class="col-sm-3 p-0">
+                        <img src="../../images/sundarpichai.jpeg" class="rounded-circle img-fluid w-75">
+                    </div>
+                    <div class="col-sm-9 p-0 recomm-text">
+                        <span class="recomm-name fw-bold ">Sundar Pichai</span>
+                        <i class="fas fa-check-circle nowrap"></i>
+                        <span class="recomm-tag d-block">@SundarPichai</span>
+                    </div>
+                    <button type="button" class="btn rounded-pill follow-btn">Follow</button>
+                </div>
+            </li>
+
+            <li class="list-group-item border-bg-color secondary-color">
+                <div class="row">
+                    <div class="col-sm-3 p-0">
+                        <img src="../../images/bloomberg.png" class="rounded-circle img-fluid w-75">
+                    </div>
+                    <div class="col-sm-9 p-0 recomm-text">
+                        <span class="recomm-name fw-bold ">Bloomberg</span>
+                        <i class="fas fa-check-circle nowrap"></i>
+                        <span class="recomm-tag d-block">@Bloomberg</span>
+                    </div>
+                    <button type="button" class="btn rounded-pill follow-btn">Follow</button>
+                </div>
+            </li>
+
+
+
+            <li class="list-group-item border-bg-color secondary-color">
+                <span class="recomm-name fw-bold ternary-color">Show more</span>
+            </li>
+
+        </ul>
+        <small class="secondary-color">Terms of Service</small>
+        <small class="secondary-color">Privacy Policy</small>
+        <small class="secondary-color">Cookie Policy</small>
+        <small class="row"></small>
+        <small class="secondary-color">Ads info</small>
+        <small class="secondary-color">More ...</small>
+        <small class="secondary-color">&copy; 2021 Twitter, Inc.</small>
     </div>
-    <div><img class="wd-img-div-class" src="../../images/solar.jpeg"/></div>
-    <div class="wd-clear"></div>
 </div>
-<div class="wd-div-class">
-    <div class="wd-div-class-with-images">
-        <span class="wd-foreground wd-view">Good News Network</span><br>
-        <span class="wd-detailed-messages">Thrilled Swimmers are Visited By Playful Penguins and Sea Lions at the Equator</span>
-    </div>
-    <div><img class="wd-img-div-class" src="../../images/penguin.jpg"/></div>
-    <div class="wd-clear"></div>
-</div>
-<div class="wd-div-class ">
-    <span class="wd-foreground wd-view">Trending in United States</span>
-    <div class="wd-more-options">...</div><br>
-    <span class="wd-header">FlyEaglesFly</span><br>
-    <span class="wd-foreground wd-view">5,800 Tuits</span>
 </div>
 </body>
 </html>
