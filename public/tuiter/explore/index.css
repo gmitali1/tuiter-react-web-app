@@ -1,82 +1,41 @@
+.wd-selected {
+    border-bottom: solid 4px rgb(29, 161, 242);
+    border-bottom-left-radius: 2px ;
+    border-bottom-right-radius: 2px;
+    border-bottom-height: 2px;
+    padding-bottom:7px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.wd-grey-border-color{
+    color: #6e767d;
+}
+
 :root{
-    --background-color:black;
-    --button-color:#0c6dfd;
-    --font-color:white;
-    --icon-color:black;
-    --highlight-color:#0c6dfd;
-    border-color:#6e767d;
-    --input-field-color:white;
-}
-
-.bg-background-color{
-    background-color: var(--background-color);
-}
-.f-background-color{
-    color: var(--background-color);
-}
-
-.bg-border-color{
-    background-color: var(--border-color);
-}
-.f-border-color{
-    color: var(--border-color);
-}
-
-.bg-button-color{
-    background-color: var(--button-color);
-}
-.f-button-color{
-   color: var(--button-color);
-}
-
-
-
-.bg-font-color{
-    background-color: var(--font-color);
-}
-.f-font-color{
-    color: var(--font-color);
-}
-
-/*------- New IMPL-------*/
-:root{
-    --primary-color:black;
-    --secondary-color:#d9d9d9;  /*white*/
-    --ternary-color:#0c6dfd;
     --border-color:#202224;
 }
 
-
-.primary-bg-color{
-    background-color: var(--primary-color);
-}
-.primary-color{
-    color: var(--primary-color);
+.wd-primary-bg-color{
+    background-color: black;
 }
 
 .wd-foreground { color: rgb(110, 118, 125); }
-.secondary-bg-color{
-    background-color: var(--secondary-color);
-}
-.secondary-color{
-    color: var(--secondary-color);
+
+.wd-secondary-color{
+    color: #d9d9d9;
 }
 
-.ternary-bg-color{
-    background-color: var(--ternary-color);
-}
-.ternary-color{
-    color: var(--ternary-color);
+.wd-ternary-color{
+    color: #0c6dfd;
 }
 
-.border-bg-color{
-    background-color: var(--border-color);
+.wd-border-bg-color{
+    background-color: #202224;
 }
-.border-color{
-    color: var(--border-color);
+.wd-border-color{
+    color: #202224;
 }
-
-
 
 .wd-div-class {
     padding: 15px;
@@ -87,6 +46,7 @@
     padding: 0px;
     font-size: 14px;
 }
+
 .wd-div-class .wd-header {
     font-size: 20px;
 }
@@ -105,17 +65,6 @@
     font-size: 13px;
 }
 
-
-.wd-img-div-class-small {
-    border-radius: 40%;
-    float: left;
-    width: 15px;
-}
-.wd-img-div-class-smaller {
-    border-radius: 50%;
-    float: none;
-    width: 15px;
-}
 .wd-img-round {
 border-radius: 20%;
 }
@@ -143,32 +92,37 @@ border-radius: 20%;
     text-decoration: None;
 }
 
-.more-icon{
+.wd-more-icon{
     width: 1em;
     height: 1em;
     line-height: 1em;
 }
-.ellipsis-small{
+.wd-ellipsis-small{
     font-size: small;
 }
-/*#6e767d*/
-.my-btn{
-    background-color: var(--ternary-color);
-    color: var(--secondary-color);
-}
 
-.follow-btn{
+.wd-follow-button-style{
     position: absolute;
     right: 10px;
     width: auto;
     top: 50%;
     transform: translateY(-50%);
     z-index: 0;
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
+    background-color: #d9d9d9;
+    color: black;
 }
 
-.follow-btn-lite {
+.wd-rounded-corner-top{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.wd-rounded-corner-bottom{
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.wd-follow-btn-lite {
     position: absolute;
     right: 10px;
     width: auto;
@@ -181,28 +135,22 @@ border-radius: 20%;
     z-index: 2;
 }
 
-.text-color {
+.wd-text-color {
 color: grey;
 }
 
-.text-in-image{
+.wd-text-and-image{
     bottom: 10px;
     left: 10px;
 }
 
-.w-1{
-position: relative;
-z-index: 2;
-    width: 3%;
-}
-
-.active-lite{
+.wd-active-lite {
     font-weight: bold;
-    background-color: var(--primary-color) !important;
-    color: var(--secondary-color) !important;
-    border: 0px !important;
+    background-color: black;
+    color: #d9d9d9;
+    border: 0px;
 }
-.white-type:focus {
+.wd-white-type:focus {
     color: #fff;
 }
 
@@ -210,25 +158,14 @@ z-index: 2;
     border-bottom: solid 2px blue !important;
 }
 
-.custom-border{
-    border-left: 1px solid var(--border-color);
+.wd-custom-border{
+    border-left: 1px solid #202224;
     border-right: 1px solid var(--border-color);
 }
-.active-tab-border{
-    border-bottom: 4px solid var(--ternary-color);
-}
 
-.width-35p{
+.wd-width-35p{
     width: 35px;
 }
 
-.wd-rounded-top{
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-}
 
-.wd-rounded-bottom{
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-}
 
