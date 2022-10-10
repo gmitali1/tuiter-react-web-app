@@ -144,7 +144,7 @@ border-radius: 20%;
 }
 
 .more-icon{
-    width: 1em !important;
+    width: 1em;
     height: 1em;
     line-height: 1em;
 }
@@ -188,12 +188,6 @@ color: grey;
 .text-in-image{
     bottom: 10px;
     left: 10px;
-}
-.w-85{
-    width: 85%;
-}
-.w-15{
-    width: 15%;
 }
 
 .w-1{
