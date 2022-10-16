@@ -1,37 +1,36 @@
 const PostItem = (post) => {
     return (`    
-            <li class="wd-bookmark-item">
-            <div class="wd-left-child">
-                <img class="wd-avatar" src="${post.image}">
-            </div>
-            <div class="wd-right-child">
-                <div class="wd-item-head">
-                    <span class="wd-item-author">${post.userName}</span>
+            <li class="wd-postlist-item">
+            <div class="wd-left-portion">
+                <img class="wd-avatar" src="${post.image}"></div>
+            <div class="wd-right-portion">
+                <div>
+                    <span class="wd-author-name">${post.userName}</span>
                     <i class="fas fa-check-circle ml-2"></i>
-                    <span class="wd-item-author-tag">${post.tag}</span>
-                    <span class="wd-item-author-tag dot-before">. ${post.time}</span>
-                    <a href="#!" class="anchor-no-effect">
-                        <span class="wd-tweet-setting wd-row">
+                    <span class="wd-author-tag">${post.tag}</span>
+                    <span class="wd-author-tag dot-before">. ${post.time}</span>
+                    <a href="#!" class="wd-no-decoration">
+                        <span class="wd-ellipse wd-row">
                             <i class="fas fa-ellipsis-h"></i>
                         </span>
                     </a>
-                    <span class="wd-item-content wd-row">${post.topic1} <a href="${post.externalLink}">${post.tagInTitle}</a> ${post.topic2}</span>
+                    <span class="wd-content wd-row">${post.topic1} <a href="${post.externalLink}">${post.tagInTitle}</a> ${post.topic2}</span>
                 </div>
                 <div class="wd-item-body">
-                    <img src="${post.bannerUrl}" class="wd-item-poster-img">
+                    <img src="${post.bannerUrl}" class="wd-item-banner">
                     <span class="wd-body-title wd-row ${post.overlayTextPresent === 'false' ? "d-none" : ""}">${post.overlayTextHeading}</span>
                     <span class="wd-body-content wd-row ${post.overlayTextPresent === 'false' ? "d-none" : ""}">${post.overlayText}</span>
                     <span class="wd-body-content wd-row ${post.overlayTextPresent === 'false' ? "d-none" : ""}">
-                        <a class="text-secondary anchor-no-effect" href="${post.externalLink}">
+                        <a class="text-secondary wd-no-decoration" href="${post.externalLink}">
                             <i class="fas fa-link"></i>
                             ${post.overlayLinkText}
                         </a>
                     </span>
                 </div>
-                <div class="wd-item-footer">
-                    <ul class="wd-reaction-list">
+                <div class="wd-footer">
+                    <ul class="wd-reaction">
                         <li>
-                            <a href="#!" class="anchor-no-effect text-secondary">
+                            <a href="#!" class="wd-no-decoration text-secondary">
                                 <span class="">
                                     <i class="far fa-comment"></i>
                                 </span>
@@ -39,7 +38,7 @@ const PostItem = (post) => {
                             </a>
                         </li>
                         <li>
-                            <a href="#!" class="anchor-no-effect text-secondary">
+                            <a href="#!" class="wd-no-decoration text-secondary">
                             <span class="">
                                 <i class="fas fa-retweet"></i>
                             </span>
@@ -47,7 +46,7 @@ const PostItem = (post) => {
                             </a>
                         </li>
                         <li>
-                            <a href="#!" class="anchor-no-effect text-secondary">
+                            <a href="#!" class="wd-no-decoration text-secondary">
                             <span class="wd-reaction-icon">
                                 <i class="fas fa-heart reaction-active"></i>
                             </span>
@@ -55,7 +54,7 @@ const PostItem = (post) => {
                             </a>
                         </li>
                         <li>
-                            <a href="#!" class="anchor-no-effect text-secondary">
+                            <a href="#!" class="wd-no-decoration text-secondary">
                             <span class="wd-reaction-icon">
                                 <i class="fas fa-upload"></i>
                             </span>
@@ -68,24 +67,5 @@ const PostItem = (post) => {
         </li>
     `);
 }
-//
-// <li className="list-group-item d-flex justify-content-between primary-bg-color secondary-color">
-//     <div className="left-child w-85">
-//         <span className="f-border-color text-secondary">${post.topic}</span>
-//         <span className="row"></span>
-//         <span>
-//                             <span className="fw-bold ${post.userName === '' ? " d-none" : ""}">
-//                                 ${post.userName}
-//                                 <i className="fas fa-check-circle ml-2"></i>
-//                             </span>
-//
-//                             <small className="f-border-color text-secondary">${post.time}</small>
-//                         </span>
-//         <span className="row"></span>
-//         <span className="f-border-color">${post.title}</span>
-//     </div>
-//     <div className="right-child w-15">
-//         <img src="${post.image}" className="img-fluid" style="width: 100px;" alt="tesla">
-//     </div>
-// </li>
+
 export default PostItem;
