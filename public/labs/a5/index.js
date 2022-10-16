@@ -1,4 +1,5 @@
-alert('Hello World!');
+
+console.log('Hello World!');
 console.log('Variables and Constants');
 global1 = 10;
 console.log(global1);
@@ -134,7 +135,7 @@ stringArray1.splice(1, 1);
 console.log(numberArray1);
 console.log(stringArray1);
 
-
+console.log('For loops')
 for (let i=0; i<stringArray1.length; i++) {
    const string1 = stringArray1[i];
    console.log(string1);
