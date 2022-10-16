@@ -1,0 +1,126 @@
+body{
+    margin: 0px;
+    background-color: black;
+    font-family: sans-serif;
+}
+.wd-header{
+    color: white;
+    padding-top: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: solid 1px rgb(47, 51, 54);
+    margin: 7px 7px 0;
+}
+.wd-page-header{
+    font-size: 20px;
+    font-weight: bold;
+}
+.blue{
+    color: #3884c7;
+}
+.wd-page-header-handle{
+    font-size: 13px;
+    display: block;
+    color: #a7a2a2;
+    padding-bottom: 12px;
+    /*border-bottom: solid 1px #a7a2a2;*/
+}
+.wd-main{
+    border: solid 1px rgb(47, 51, 54);
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px 7px 7px 7px;
+}
+.wd-grid-row{
+    clear: both;
+}
+.wd-row{
+    display: block;
+}
+.anchor-no-effect{
+    text-decoration: none;
+}
+
+
+/*POSTS*/
+.wd-bookmark-list{
+    color: white;
+    list-style-type: none;
+    padding-left: 0px;
+    padding-top: 12px;
+}
+.wd-bookmark-item{
+    display: flex;
+    align-items: flex-start;
+    border-bottom: solid 1px rgb(47, 51, 54);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.wd-left-child{
+    width: fit-content;
+    padding-right: 12px;
+    margin-left: 16px;
+}
+.wd-right-child{
+    width: 506px;
+    padding-right: 12px;
+}
+
+.wd-avatar{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.wd-item-author{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.wd-item-author-tag{
+    font-size: 15px;
+    color: #a7a2a2;
+}
+
+.wd-tweet-setting{
+    color: rgb(110, 118, 125);
+    font-size: small;
+    float: right;
+}
+.wd-item-content{
+    font-size: 15px;
+    padding-bottom: 12px;
+}
+.wd-item-poster-img{
+    width: 504px;
+    height: 264px;
+    border-radius: 10px;
+    /*border-top-right-radius: 10px;*/
+}
+.wd-item-body{
+    border: solid 1px rgb(110, 118, 125);
+    border-radius: 10px;
+    font-size: 15px;
+    width: 506px;
+}
+.wd-body-title{
+    font-weight: bold;
+    padding: 12px;
+}
+.wd-body-content{
+    padding: 12px;
+    color: #a7a2a2;
+}
+.wd-item-footer{
+    width: 506px;
+}
+.wd-reaction-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    color: #a7a2a2;
+    padding-top: 12px;
+    padding-inline-start: 0px;
+}
+
+
