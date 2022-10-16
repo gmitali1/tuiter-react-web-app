@@ -1,7 +1,7 @@
 const PostSummaryItem = (post) => {
     return (`    
             <li class="list-group-item d-flex justify-content-between primary-bg-color secondary-color">
-                    <div class="left-child w-85">
+                    <div class="left-child w-85" style="padding-right:10px">
                         <span class="f-border-color text-secondary">${post.topic}</span>
                         <span class="row"></span>
                         <span>
