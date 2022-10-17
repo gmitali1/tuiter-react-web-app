@@ -5,10 +5,10 @@ const PostSummaryItem = (post) => {
                         <span class="f-border-color text-secondary">${post.topic}</span>
                         <span class="row"></span>
                         <span>
-                            <span class="fw-bold ${post.userName === '' ? "d-none" : ""}">${post.userName}
+                            <span class="fw-bold">${post.userName}
                                 <i class="fas fa-check-circle ml-2"></i>
                             </span>
-                            <small class="f-border-color text-secondary">${post.time}</small>
+                            <small class="f-border-color text-secondary"> - ${post.time}</small>
                         </span>
                         <span class="row"></span>
                         <span class="f-border-color">${post.title}</span>
