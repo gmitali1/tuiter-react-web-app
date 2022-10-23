@@ -39,6 +39,11 @@ const NavigationSidebar = () => {
                     ${active === 'more'?'active':''}`}>
                 More
             </Link>
+
+            <Link to="/" className={`list-group-item
+                    ${active === 'labs'?'active':''}`}>
+                Labs
+            </Link>
         </div>
     );
 };
