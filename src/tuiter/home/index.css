@@ -1,0 +1,46 @@
+.wd-rounded-corner-top{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.wd-rounded-corner-bottom{
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.wd-100-width {
+    width: 100%;
+}
+.wd-options {
+    display: inline;
+}
+
+.wd-options-list {
+    width: 100%;
+    justify-content: space-between;
+    list-style-type: none;
+    display: flex;
+    color:darkgray;
+    float: left;
+    padding-inline-start: 0;
+}
+
+.wd-retweeted {
+    color:gray;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.wd-title {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.wd-thread {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.wd-retweet {
+    margin-right: 5px;
+}
