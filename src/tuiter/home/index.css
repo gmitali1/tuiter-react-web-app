@@ -16,7 +16,7 @@
 }
 
 .wd-options-list {
-    width: 100%;
+    width: 95%;
     justify-content: space-between;
     list-style-type: none;
     display: flex;
@@ -43,4 +43,12 @@
 
 .wd-retweet {
     margin-right: 5px;
+}
+
+.wd-retweet-post {
+    text-decoration: none;
+}
+
+.wd-spacing {
+    margin-left: 8px;
 }

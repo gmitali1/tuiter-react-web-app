@@ -57,12 +57,12 @@ const HomeSummaryItem = (
                     <FontAwesomeIcon icon={faCircleCheck}></FontAwesomeIcon>
                     <span> {post.userName} . {post.time} </span>
                     <FontAwesomeIcon icon={faEllipsisH} className={"float-end"}></FontAwesomeIcon>
-                    <div className={"wd-title"}>{post.title} <a href={post.url}>{post.url}</a></div>
+                    <div className={"wd-title"}>{post.title} <a className={"wd-retweet-post"} href={"https://www."+post.url}>{post.url}</a></div>
 
                     <TweetInlineComponent className={"col-10 wd-title"} post={post}/>
                     <OptionsComponent post={post}/>
                     <div className ={"wd-thread"}>
-                        { post.url!=null && <a href={post.url}> Show this thread</a>}
+                        { post.url!=null && <a className={"wd-retweet-post"} href={post.url}> Show this thread</a>}
                     </div>
 
                 </div>
