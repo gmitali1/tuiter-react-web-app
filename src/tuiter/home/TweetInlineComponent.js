@@ -31,7 +31,7 @@ function Tweet(post) {
         <img width={20} src={"../images/"+post.profile} className ="rounded-5"/>
         <span className={"fw-bolder wd-spacing"}>{post.topic} </span>
         <FontAwesomeIcon icon={faCircleCheck}></FontAwesomeIcon>
-        <span> {post.userName} . {post.time} </span>
+        <span className={"wd-more-icon"}> {post.userName} . {post.time} </span>
         <i className={"fa-solid fa-check"}></i>
         <div>{post.title}</div>
     </div></li>;

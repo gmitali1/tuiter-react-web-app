@@ -45,6 +45,10 @@
     margin-right: 5px;
 }
 
+.wd-more-icon {
+    color:gray;
+}
+
 .wd-retweet-post {
     text-decoration: none;
 }

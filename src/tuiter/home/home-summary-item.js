@@ -55,8 +55,8 @@ const HomeSummaryItem = (
                 <div className="col-10">
                     <span className={"fw-bolder"}>{post.topic} </span>
                     <FontAwesomeIcon icon={faCircleCheck}></FontAwesomeIcon>
-                    <span> {post.userName} . {post.time} </span>
-                    <FontAwesomeIcon icon={faEllipsisH} className={"float-end"}></FontAwesomeIcon>
+                    <span className={"wd-more-icon"}> {post.userName} . {post.time} </span>
+                    <FontAwesomeIcon icon={faEllipsisH} className={"float-end wd-more-icon"}></FontAwesomeIcon>
                     <div className={"wd-title"}>{post.title} <a className={"wd-retweet-post"} href={"https://www."+post.url}>{post.url}</a></div>
 
                     <TweetInlineComponent className={"col-10 wd-title"} post={post}/>
