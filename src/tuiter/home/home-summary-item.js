@@ -62,7 +62,7 @@ const HomeSummaryItem = (
                     <TweetInlineComponent className={"col-10 wd-title"} post={post}/>
                     <OptionsComponent post={post}/>
                     <div className ={"wd-thread"}>
-                        { post.url!=null && <a className={"wd-retweet-post"} href={post.url}> Show this thread</a>}
+                        { post.url!=null && <a className={"wd-retweet-post"} href={"https://www."+post.url}> Show this thread</a>}
                     </div>
 
                 </div>
