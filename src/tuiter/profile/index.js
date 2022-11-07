@@ -67,7 +67,7 @@ const ProfileComponent = () => {
                             <li>
                                 <a href="#" className="wd-remove-link-text-decor wd-reaction-count">
                                     <FontAwesomeIcon className="wd-right-margin" icon={faCalendar} />
-                                    <span className="wd-reaction-count">Joined {profile.dateJoined}</span>
+                                    <span className="wd-reaction-count">Joined {moment(profile.dateJoined).format("MMMM, YYYY")}</span>
                                 </a>
                             </li>
                         </ul>
