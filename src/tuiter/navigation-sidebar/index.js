@@ -22,7 +22,7 @@ const NavigationSidebar = () => {
     const active = paths[2];
     return (
         <div className="list-group">
-            <a className="list-group-item"> <FontAwesomeIcon className="wd-navigation-icon" icon={faT}/>Tuiter</a>
+            <a className="list-group-item"> <FontAwesomeIcon className="wd-navigation-icon" icon={faT}/></a>
 
             <Link to="/tuiter" className={`list-group-item ${active === undefined ? 'active' : ''}`}>
                 <FontAwesomeIcon className="wd-navigation-icon" icon={faHome}/> Home
