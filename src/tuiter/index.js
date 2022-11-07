@@ -8,7 +8,7 @@ import {configureStore} from "@reduxjs/toolkit";
 import whoReducer from "./reducers/who-reducer";
 import tuitsReducer from "./tuits/tuits-reducer";
 import {Provider} from "react-redux";
-import EditProfileForm from "./profile/edit-profile/edit-profile-form";
+import EditProfile from "./profile/edit-profile/edit-profile";
 import Profile from "./profile";
 import profileReducer from "./profile/profile-reducer";
 import EditProfileComponent from "./profile/edit-profile";
@@ -27,7 +27,7 @@ function Tuiter() {
                 <Routes>
                     <Route path=""    element={<HomeComponent/>}/>
                     <Route path="explore" element={<ExploreComponent/>}/>
-                    <Route path="edit-profile" element={<EditProfileForm/>}/>
+                    <Route path="edit-profile" element={<EditProfile/>}/>
                     <Route path="profile" element={<Profile/>}/>
                 </Routes>
             </div>

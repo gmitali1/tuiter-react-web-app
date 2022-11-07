@@ -1,6 +1,6 @@
 import React from "react";
 import "../index.css"
-import EditProfile from "./edit-profile-form";
+import EditProfile from "./edit-profile";
 
 const EditProfileComponent = () => {
     return(
