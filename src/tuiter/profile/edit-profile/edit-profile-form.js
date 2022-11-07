@@ -44,7 +44,7 @@ const EditProfile = () => {
                     <Link to="/tuiter/profile">
                         <FontAwesomeIcon className="align-self-center wd-margin-top-small wd-left-margin-medium wd-edit-profile" icon={faClose} onClick={cancelListener}/>
                     </Link>
-                    <span className="fw-bold wd-toolbar-header wd-edit-profile">Edit Profile</span>
+added                    <span className="fw-bold wd-toolbar wd-edit-profile">Edit Profile</span>
                     <button className="btn btn-dark rounded-pill float-end wd-save-button" onClick={saveListener}>Save</button>
                 </div>
             </li>
@@ -53,12 +53,12 @@ const EditProfile = () => {
                     <div>
                         <img src={`/images/${profile.bannerPicture}`} width="100%" height="300" alt='mitali.png'/>
                     </div>
-                    <div className="rounded-circle wd-overlap-profile wd-border">
-                        <img className="rounded-circle wd-overlap-profile wd-border" alt='mitali.png' src={`/images/${profile.profilePicture}`} width={150}/>
+                    <div className="rounded-circle wd-overlap wd-border">
+                        <img className="rounded-circle wd-overlap wd-border" alt='mitali.png' src={`/images/${profile.profilePicture}`} width={150}/>
                     </div>
                 </div>
             </li>
-
+<div>
             <div className="form-floating mb-3">
                 <input type="text" className="form-control" name="firstName" id="nameFloating" placeholder="John Doe" defaultValue={profile.firstName} onChange={changeListener} />
                     <label htmlFor="nameFloating">First Name</label>
@@ -88,6 +88,7 @@ const EditProfile = () => {
                 <input type="date" className="form-control" id="dateOfBirthFloating" placeholder="www.google.com" defaultValue={profile.dateOfBirth} name="dateOfBirth" onChange={changeListener}/>
                 <label htmlFor="dateOfBirthFloating">Birth date</label>
             </div>
+</div>
 
         </div>
     );

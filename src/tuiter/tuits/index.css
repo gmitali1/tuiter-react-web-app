@@ -6,7 +6,7 @@
     width: 80%;
 }
 
-.wd-reaction-list {
+.wd-post-stats-reactions {
     list-style-type: none;
     display: flex;
     justify-content: space-between;

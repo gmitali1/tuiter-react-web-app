@@ -12,7 +12,7 @@ const PostStats = ({
     commentsCount = "300",
                     liked=true}) => {
     return <div className="wd-item-footer">
-        <ul className="wd-reaction-list">
+        <ul className="wd-post-stats-reactions">
             <li>
                 <a href="#" className="wd-remove-link-text-decor wd-reaction-count">
                     <FontAwesomeIcon className="wd-right-margin" icon={faComment} />

@@ -23,7 +23,7 @@ const ProfileComponent = () => {
                         <FontAwesomeIcon className="align-self-center wd-margin-top-small" icon={faArrowLeftLong}/>
                     </div>
                     <div className="col-10">
-                        <span className="fw-bold wd-toolbar-header">{profile.firstName} {profile.lastName}</span>
+                        <span className="fw-bold wd-toolbar">{profile.firstName} {profile.lastName}</span>
                         <div className="text-secondary">{profile.noOfTweets} Tuits</div>
                     </div>
                 </div>
@@ -33,8 +33,8 @@ const ProfileComponent = () => {
                     <div>
                         <img src={`../../images/${profile.bannerPicture}`} width="100%" height="300px"/>
                     </div>
-                    <div className="rounded-circle wd-overlap-profile wd-border">
-                        <img className="rounded-circle wd-overlap-profile wd-border" src={`/images/${profile.profilePicture}`} width={150}/>
+                    <div className="rounded-circle wd-overlap wd-border">
+                        <img className="rounded-circle wd-overlap wd-border" src={`/images/${profile.profilePicture}`} width={150}/>
 
                     </div>
                     <div>
@@ -46,12 +46,12 @@ const ProfileComponent = () => {
             </li>
             <li className="list-group-item wd-margin-side wd-profile-loc">
                 <div className="row">
-                    <span className="fw-bolder wd-toolbar-header">{profile.firstName} {profile.lastName}</span>
+                    <span className="fw-bolder wd-toolbar">{profile.firstName} {profile.lastName}</span>
                     <span className="text-secondary wd-margin-bottom-small">{profile.handle}</span>
                     <span className="text-body wd-margin-bottom-small">{profile.bio}</span>
 
                     <div className="wd-item-footer  wd-margin-bottom-small">
-                        <ul className="wd-reaction-list">
+                        <ul className="wd-post-stats-reactions">
                             <li>
                                 <a href="#" className="wd-remove-link-text-decor wd-reaction-count">
                                     <FontAwesomeIcon className="wd-right-margin" icon={faLocationDot} />

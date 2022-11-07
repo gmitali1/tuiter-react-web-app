@@ -3,6 +3,25 @@
     padding-right: 8px;
 }
 
+.wd-border{
+    border: black 2px;
+    border-radius: 200px;
+}
+
+.wd-footer-item {
+    margin-bottom: 10px;
+}
+
+.wd-toolbar {
+    font-size: 20px;
+}
+
+.wd-overlap {
+    margin-left: 2%;
+    margin-top: -10%;
+    float: start;
+}
+
 .wd-profile-loc {
     margin-left: 8px;
     margin-right: 8px;
@@ -17,11 +36,7 @@
     border: 1px solid lightgrey;
 }
 
-.wd-overlap-profile {
-    margin-left: 2%;
-    margin-top: -10%;
-    float: start;
-}
+
 
 .wd-override-overlap {
     margin-left: 0;
@@ -29,15 +44,7 @@
     float: end;
 }
 
-.wd-reaction-list {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    color: #a7a2a2;
-    padding-top: 12px;
-    padding-inline-start: 0;
-    margin-bottom: 8px;
-}
+
 
 .wd-margin-bottom-large {
     margin-bottom: 30px;
@@ -64,14 +71,18 @@
     justify-content: start;
 }
 
-.wd-toolbar-header {
-    font-size: 20px;
+.wd-post-stats-reactions {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    color: #a7a2a2;
+    padding-top: 12px;
+    padding-inline-start: 0;
+    margin-bottom: 8px;
 }
 
-.wd-border{
-    border: black 2px;
-    border-radius: 200px;
-}
+
+
 
 
 
