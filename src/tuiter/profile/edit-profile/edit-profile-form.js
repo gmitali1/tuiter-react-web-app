@@ -44,7 +44,7 @@ const EditProfile = () => {
                     <Link to="/tuiter/profile">
                         <FontAwesomeIcon className="align-self-center wd-margin-top-small wd-left-margin-medium wd-edit-profile" icon={faClose} onClick={cancelListener}/>
                     </Link>
-added                    <span className="fw-bold wd-toolbar wd-edit-profile">Edit Profile</span>
+                   <span className="fw-bold wd-toolbar wd-edit-profile">Edit Profile</span>
                     <button className="btn btn-dark rounded-pill float-end wd-save-button" onClick={saveListener}>Save</button>
                 </div>
             </li>
