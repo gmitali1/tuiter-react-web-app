@@ -51,7 +51,7 @@ const EditProfile = () => {
             <li className="list-group-item wd-margin-bottom-large">
                 <div className="row">
                     <div>
-                        <img src={`/images/${profile.bannerPicture}`} width="100%" height="200px" alt='mitali.png'/>
+                        <img src={`/images/${profile.bannerPicture}`} width="100%" height="300" alt='mitali.png'/>
                     </div>
                     <div className="rounded-circle wd-overlap-profile wd-border">
                         <img className="rounded-circle wd-overlap-profile wd-border" alt='mitali.png' src={`/images/${profile.profilePicture}`} width={150}/>
