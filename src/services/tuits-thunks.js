@@ -3,9 +3,23 @@ import {createAsyncThunk}
 import * as service
     from "./tuits-service"
 
+export const updateTuitThunk =
+    createAsyncThunk(
+        'tuits/updateTuit',
+        async (tuit) => {
+            return await service.updateTuit(tuit)
+        }
+    )
+export const createTuitThunk = createAsyncThunk(
+    'tuits/createTuit',
+    async (tuit) => {
+        return await service.createTuit(tuit)
+    }
+)
+
 export const findTuitsThunk = createAsyncThunk(
-    'tuits/findTuits', async () =>
-        await service.findTuits()
+    'tuits/findTuits',
+    async () => await service.findTuits()
 )
 
 export const deleteTuitThunk = createAsyncThunk(
@@ -14,18 +28,3 @@ export const deleteTuitThunk = createAsyncThunk(
         await service.deleteTuit(tuitId)
         return tuitId
     })
-
-export const createTuitThunk = createAsyncThunk(
-    'tuits/createTuit',
-    async (tuitId) => {
-        await service.createTuit(tuitId)
-        return tuitId
-    })
-
-export const updateTuitThunk =
-    createAsyncThunk(
-        'tuits/updateTuit',
-        async (tuit) =>
-            await service.updateTuit(tuit)
-    )
-
