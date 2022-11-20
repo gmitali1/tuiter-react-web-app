@@ -7,6 +7,7 @@ import {BrowserRouter} from "react-router-dom";
 import {Routes, Route} from "react-router";
 import EditProfileForm from "./tuiter/profile/edit-profile/edit-profile";
 import EditProfileComponent from "./tuiter/profile/edit-profile";
+import LoginForm from "./LoginForm";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
                   <Route path="/hello"
                          element={<HelloWorld/>}/>
                   <Route path="/tuiter/*" element={<Tuiter/>}/>
+                  <Route path="/login" element={<LoginForm/>}/>
               </Routes>
           </div>
       </BrowserRouter>

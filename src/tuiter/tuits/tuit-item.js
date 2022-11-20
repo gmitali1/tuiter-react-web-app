@@ -3,13 +3,13 @@ import PostStats from "../post-list/post-stats";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faCircleCheck} from "@fortawesome/free-solid-svg-icons/faCircleCheck";
 import {useDispatch} from "react-redux";
-import {deleteTuit} from "./tuits-reducer";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 
 const TuitItem = (
     {
         post = {
             "topic": "Space",
-            "userName": "SpaceX",
+            "username": "SpaceX",
             "time": "2h",
             "title": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
             "image": "tesla.png",
@@ -24,26 +24,26 @@ const TuitItem = (
 ) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
     return(
         <li className="list-group-item">
             <div className="row">
                 <br/>
                 <div className="col-auto">
-                    <img width={50} className="float-start rounded-circle" src={`/images/${post.image}`} alt={post.userName}/>
+                    <img width={50} className="float-start rounded-circle" src={`/images/${post.image}`} alt={post.username}/>
                 </div>
                 <div className="col-10">
                     <div>
                         <i className="bi bi-x-lg float-end"
                            onClick={() => deleteTuitHandler(post._id)}></i>
                     </div>
-                    <div className="fw-bolder">{post.userName}
+                    <div className="fw-bolder">{post.username}
                         <FontAwesomeIcon className={"wd-right-margin wd-left-margin"} icon={faCircleCheck} />
                         <span className="fw-normal wd-reaction-count">{post.handle} . {post.time}</span>
                     </div>
                     <div className={"wd-bottom-margin-medium"}>{post.tuit}</div>
-                    <PostStats liked={post.liked} likesCount={post.likes} commentsCount={post.replies} retweetCount={post.retuits}/>
+                    <PostStats tuit={post}/>
                 </div>
             </div>
         </li>

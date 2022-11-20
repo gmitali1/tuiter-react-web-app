@@ -20,7 +20,7 @@ const OptionsComponent = ({
                                       "userName": "@SpaceX",
                                       "time": "16h",
                                       "title": "Starlink for RVs now has over 100,000 customers! Access high-speed, low-latency internet on an as-needed basis anywhere Starlink provides active coverage -> starlink.com/rv",
-                                      "profile": "spacexx.jpg"
+                                      "profile": "spacex.png"
                                   }
                               }
                           }) => {

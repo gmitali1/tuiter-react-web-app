@@ -15,7 +15,7 @@ const PostItem = (
             "retweetedBy": "Elon Musk",
             "content": "Dennis and Akiko Tito are the first two crewmembers on Starship's second commercial spaceflight around the moon -> spacex.com/updates",
             "time": "15h",
-            "image": "spacex.png",
+            "image": "spacex.jpg",
             "commentsCount": "595",
             "retweetCount": "1168",
             "likesCount": "11.1K",

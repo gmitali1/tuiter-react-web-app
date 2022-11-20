@@ -1,5 +1,6 @@
 import React, {useState} from "react";
-import {createTuit} from "../tuits/tuits-reducer";
+import {createTuitThunk}
+    from "../../services/tuits-thunks";
 import {useDispatch} from "react-redux";
 
 const WhatsHappening = () => {
@@ -7,9 +8,16 @@ const WhatsHappening = () => {
     const dispatch = useDispatch();
     const tuitClickHandler = () => {
         const newTuit = {
-            tuit: whatsHappening
+            tuit: whatsHappening,
+            handle: "@meetug",
+            title : whatsHappening,
+            username : "Mitali",
+            liked: false,
+            likes: 0,
+            replies: 0, retuits: 0, dislikes: 0, disliked: false, time:"0m", image:"MitaliPassportSize.jpeg"
+
         }
-        dispatch(createTuit(newTuit));
+        dispatch(createTuitThunk(newTuit));
         console.log(whatsHappening);
     }
     return (

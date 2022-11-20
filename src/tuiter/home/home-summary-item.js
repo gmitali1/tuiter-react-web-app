@@ -35,7 +35,7 @@ const HomeSummaryItem = (
             "title": "Dennis and Akiki Tito  are the first two crewmembers on Starship's second commercial spaceflight around the Moon",
             "url": "https://www.spacex.com/updates/",
             "image": "homepost.png",
-            "profile": "spacexx.jpg",
+            "profile": "spacex.png",
             "likesCount": "11.1k",
             "retweetCount": "5000",
             "commentsCount": "1000",
