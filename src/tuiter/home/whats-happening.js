@@ -13,6 +13,7 @@ const WhatsHappening = () => {
             title : whatsHappening,
             username : "Mitali",
             liked: false,
+            topic:"Finance",
             likes: 0,
             replies: 0, retuits: 0, dislikes: 0, disliked: false, time:"0m", image:"MitaliPassportSize.jpeg"
 
